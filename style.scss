@@ -1,0 +1,41 @@
+/* style.scss */
+
+$colors: red, orange, pink, green, blue, purple;
+$repeat: 20;
+
+body {
+  background-color: #c9c6be;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.drum-container {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  row-gap: 6px;
+  column-gap: 16px;
+  background-color: #2b4151;
+  max-width: 660px;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+
+  p {
+    color: white;
+    margin: 0 0 0 10px;
+    padding-top: 4px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+  }
+}
+
+.drum-pad {
+  border: 2.4px solid #c9c6be;
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+  background-color: #7a7c7d;
+}
