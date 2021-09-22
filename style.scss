@@ -38,4 +38,11 @@ body {
   height: 200px;
   width: 200px;
   background-color: #7a7c7d;
+  transition: all 0.07s;
+}
+
+.playing {
+  transform: scale(1.05);
+  border-color: #ffab01;
+  box-shadow: 0 0 10px #ffab01;
 }
